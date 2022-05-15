@@ -6,8 +6,6 @@ dotenv.config();
 const app = express();
 const port = process.env.port;
 
-console.log(port);
-
 app.get('/', (req, res) => {
   res.send('Welcome to Omega36');
 });
